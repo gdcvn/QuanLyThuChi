@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#e0e0e0">
+
+    <RelativeLayout
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/llLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:paddingLeft="10dp"
+            android:visibility="invisible"
+            android:id="@+id/btnBackThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/button_green"
+            android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+            android:text="Thu"
+            android:textAllCaps="false" />
+
+        <Button
+            android:paddingRight="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnForwardChi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button_green"
+            android:drawableRight="@drawable/ic_arrow_forward_black_18dp"
+            android:text="Chi"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</LinearLayout>
